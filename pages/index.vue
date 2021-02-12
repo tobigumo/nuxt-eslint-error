@@ -30,6 +30,10 @@
 <script lang="ts">
 import Vue from 'vue'
 
+let elements: HTMLCollectionOf<Element>
+
+elements = document.getElementsByClassName('title')
+
 export default Vue.extend({})
 </script>
 
